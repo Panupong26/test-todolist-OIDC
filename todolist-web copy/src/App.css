@@ -1,0 +1,146 @@
+.inputBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputDate {
+    margin: 5px;
+    padding: 0;
+    border: 1px solid rgb(170, 167, 167);
+    width: 150px;
+    height: 50px;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+}
+
+.inputTime {
+    margin: 5px;
+    padding: 0;
+    border: 1px solid rgb(170, 167, 167);
+    width: 150px;
+    height: 50px;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+}
+
+.inputText {
+    margin: 5px;
+    padding: 0;
+    border: 1px solid rgb(170, 167, 167);
+    width: 150px;
+    height: 50px;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+}
+
+.inputEdit {
+    text-align: center;
+    height: 20px;
+    margin: 2px;
+}
+
+.inputCardText {
+    width: 300px;
+    margin: auto 30px;
+}
+
+.pageButton {
+    margin: 5px;
+    padding: 0;
+    border: 1px solid rgb(170, 167, 167);
+    width: 50px;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+}
+
+.profileButton {
+    position: absolute;
+    right: 10px;
+    height: 50px;
+}
+
+.mainbox {
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    box-shadow: none;
+    color: gray;
+    text-align: center;
+}
+
+.daybox {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid rgb(170, 167, 167);
+    box-shadow: none;
+    border-radius: 5px;;
+    color: gray;
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+.taskbox {
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid rgb(170, 167, 167);
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardButton {
+    margin: auto 5px;
+    padding: 0;
+    border: 1px solid rgb(170, 167, 167);
+    width: 50px;
+    height: 100%;
+    box-shadow: none;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: rgba(181, 230, 245, 0.656);
+}
+
+.bg-green {
+    background-color: rgba(156, 241, 187, 0.656);
+}
+
+.bg-red {
+    background-color: rgba(235, 166, 166, 0.656);
+}
+
+.bg-yellow {
+    background-color: rgba(242, 203, 118, 0.656);
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-gray {
+    background-color: rgb(191, 190, 190);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
