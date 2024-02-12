@@ -24,7 +24,7 @@ export default function KeycloakLoginPage() {
             if(authenticated) {
                 console.log(keycloak.idToken)
                 localStorage.setToken(keycloak.idToken);   
-                window.location.pathname = "profile";
+                //window.location.pathname = "profile";
             }
             //setShow(authenticated);
         });
